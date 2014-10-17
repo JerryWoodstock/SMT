@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Message Tag Attributes
+
+Name: Name if template
+MaxLineLength: Number of characters permitted on a line if a word exceeds the boundry then that word is shifted to the next line.
+SOH: Hexidecimal value of all Start of Header Characters deliniated by a comma.
+ETX: Hexidecimal value of all End of Text Charaters  deliniated by a comma.
+NL:  Hexidecimal value of all new line characters that are required at the end of a line deliniated by a comma
+
+-->
+<ACP Name="ACP128">
+  
+  <FUNCTIONS>
+    <SOH CRInHex = "01"/>
+    <NL CRInHex = "0D,0D,0A"/>
+    <SPACE CRInHex ="20" />
+  </FUNCTIONS>
+  
+  <PROSIGNS>
+    
+  </PROSIGNS>
+
+  <MESSAGE>
+    
+    <SOM>
+      
+      <FORMATLINE1>
+        <SOH/>
+        <NL/>
+      </FORMATLINE1>
+          
+      <FORMATLINE2>
+        <PRECEDENCE/>
+        <LMF/>
+        <CLASSIFICATION/>
+        <CAI/>
+        <CIC/>
+        <OSRI/>
+        <SSN/>
+        <DTF/>
+        <REDUNDENCY/>
+        <TRC/>
+        <SOR/>
+        <RIS/>
+        <EOR/>
+      </FORMATLINE2>
+      
+      <FORMATLINE3>
+        <BLANK/>
+      </FORMATLINE3>
+     
+      <FORMATLINE4>
+        <SECSIG/>
+        <CLASSIFICATION/>
+        <PROSIGN/>
+        <TRC/>
+        <SPECAT/>
+        <HINSTR/>
+      </FORMATLINE4>
+      
+    </SOM>
+
+    <ADDRESSCOMPONENTS>
+      
+      <FORMATLINE5>
+        <PRECEDENCE/>
+        <DTG/>
+        <HINSTR/>
+      </FORMATLINE5>
+      
+      <FORMATLINE6>
+        <FM/>
+        <ORIG_RI/>
+      </FORMATLINE6>
+     
+      <FORMATLINE7>
+        <TO/>
+        <OPSIG/>
+        <ACTION_RIS/>        
+      </FORMATLINE7>
+      
+      <FORMATLINE8>
+        <INFO/>
+        <OPSIG/>
+        <INFO_RIS/>
+      </FORMATLINE8>
+      
+      <FORMATLINE9>
+        <XMT/>
+        <XMT_RIS/>  
+      </FORMATLINE9>
+      
+      <FORMATLINE10>
+        <BLANK/>
+      </FORMATLINE10>
+      
+    </ADDRESSCOMPONENTS>
+    
+    <FORMATLINE11>
+      <BT/>
+    </FORMATLINE11>
+    
+    <FORMATLINE12>
+      <CLASIFICATION/>
+      <SIC/>
+      <TEXT/>
+    </FORMATLINE12>
+    
+    <FORMATLINE13>
+      <BT/>
+    </FORMATLINE13>
+    
+    <FORMATLINE14>
+      <GR/>
+      <SPACE/>
+      <COUNT/>
+    </FORMATLINE14>
+
+    <EOM>
+      <FORMATLINE15>
+        <SSN/>
+      </FORMATLINE15>
+      <FORMATLINE16>
+        <ETX/>
+      </FORMATLINE16>
+    </EOM> 
+   
+  </MESSAGE>
+
+</ACP>
