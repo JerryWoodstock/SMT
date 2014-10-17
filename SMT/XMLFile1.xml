@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Message Tag Attributes
+
+Name: Name if template
+MaxLineLength: Number of characters permitted on a line if a word exceeds the boundry then that word is shifted to the next line.
+SOH: Hexidecimal value of all Start of Header Characters deliniated by a comma.
+ETX: Hexidecimal value of all End of Text Charaters  deliniated by a comma.
+NL:  Hexidecimal value of all new line characters that are required at the end of a line deliniated by a comma
+
+-->
+<ACP Name="ACP128">
+  
+  <FUNCTIONS>
+        
+  </FUNCTIONS>
+  
+  <PROSIGNS>
+    
+  </PROSIGNS>
+
+  <MESSAGE>
+    <FORMATLINE1></FORMATLINE1>
+    <FORMATLINE2></FORMATLINE2>
+    <FORMATLINE3></FORMATLINE3>
+    <FORMATLINE4></FORMATLINE4>
+    <FORMATLINE5></FORMATLINE5>
+    <FORMATLINE6></FORMATLINE6>
+    <FORMATLINE7></FORMATLINE7>
+    <FORMATLINE8></FORMATLINE8>
+    <FORMATLINE9></FORMATLINE9>
+    <FORMATLINE10></FORMATLINE10>
+    <FORMATLINE11></FORMATLINE11>
+    <FORMATLINE12></FORMATLINE12>
+    <FORMATLINE13></FORMATLINE13>
+    <FORMATLINE14></FORMATLINE14>
+    <FORMATLINE15></FORMATLINE15>
+    <FORMATLINE16></FORMATLINE16>
+  </MESSAGE>
+
+</ACP>
